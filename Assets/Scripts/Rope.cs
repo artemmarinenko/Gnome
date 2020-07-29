@@ -23,7 +23,7 @@ public class Rope : MonoBehaviour
         public float ropeSpeed = 4.0f;
         // Визуализатор LineRenderer, отображающий веревку.
        
- LineRenderer lineRenderer;
+        LineRenderer lineRenderer;
         void Start()
         {
             // Кэшировать ссылку на визуализатор, чтобы
