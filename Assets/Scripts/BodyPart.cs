@@ -40,7 +40,7 @@ public class BodyPart : MonoBehaviour {
                 Destroy(body);
             }
 
-            foreach (Collider2D collider in GetComponentsInChildren<CircleCollider2D>())
+            foreach (Collider2D collider in GetComponentsInChildren<Collider2D>())
             {
 
                 Destroy(collider);

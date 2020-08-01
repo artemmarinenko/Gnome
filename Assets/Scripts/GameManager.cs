@@ -29,7 +29,7 @@ public class GameManager : Singleton<GameManager> {
     public AudioClip gameOverSound;
     // Use this for initialization
     void Start () {
-
+        Debug.Log("Game Manager Starts");
         Reset();
 		
 	}
@@ -113,6 +113,9 @@ public class GameManager : Singleton<GameManager> {
             RemoveGnome();
             StartCoroutine(ResetAfterDelay());
         }
+     
+
+
     }
 
     IEnumerator ResetAfterDelay()
